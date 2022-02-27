@@ -2,7 +2,7 @@
 %reference:
 %https://www.youtube.com/watch?v=KGiV_2i713I&list=PLMrJAkhIeNNT_Xh3Oy0Y4LTj0Oxo8GqsC&index=34
 
-A = imread('C:\Users\abegail\Downloads\CODE\CH01\dog.jpg');
+A = imread('dog.jpg');
 B = rgb2gray(A); % Convert to grayscale image
 Bt = fft2(B); % fft2
 Btsort = sort(abs(Bt(:))); % Sort by magnitude
